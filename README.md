@@ -5,7 +5,7 @@ Cypress.on("uncaught:exception", (err, runnable) => {
 })
 describe('SignIn/SignUp Suits', () => {
 
-    it.skip('Validate Signup', () => {
+    it('Validate Signup', () => {
 
         cy.visit('https://www.kapishjewels.com/');
         cy.wait(4000);
